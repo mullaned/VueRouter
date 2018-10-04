@@ -17,5 +17,6 @@ export const routes = [
     {path: '', name: 'home', components: {
         default: Home,
         'header-top': Header
-    }}
+    }},
+    {path: '/redirect-me', redirect: '/user'}
 ];
